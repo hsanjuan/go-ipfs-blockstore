@@ -8,12 +8,12 @@ import (
 	"sync"
 	"sync/atomic"
 
+	dshelp "github.com/hsanjuan/go-ipfs-ds-help"
 	blocks "github.com/ipfs/go-block-format"
 	cid "github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"
 	dsns "github.com/ipfs/go-datastore/namespace"
 	dsq "github.com/ipfs/go-datastore/query"
-	dshelp "github.com/ipfs/go-ipfs-ds-help"
 	logging "github.com/ipfs/go-log"
 )
 
